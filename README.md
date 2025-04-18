@@ -6,7 +6,7 @@ This repository contains the materials and code for the paper **Knowledge Graph 
 ---
 
 <div style="background-color:white">
-  <img src="Arc.drawio.png" alt="Model Diagram" width="900"/>
+  <img src="architecture_kgemi.drawio.png" alt="Model Diagram" width="900"/>
 </div>
 
 
