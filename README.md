@@ -43,7 +43,7 @@ cd kgemi
 Convert your CSV of microbial interactions into a knowledge graph format:
 
 ```python
-from utils.create_data import create_data
+from utils import create_data
 
 # Provide the path to your CSV and a name for the output folder
 create_data("path/to/your_data.csv", "MKG")
@@ -58,7 +58,7 @@ This will generate the following in `datasets/MKG/`:
 ### 3. Train & Evaluate a model
 
 ```bash
-python main.py --dataset MKG --model SimplE
+python main.py -dataset MKG -model SimplE
 ```
 
 - `--dataset` specifies the folder under `datasets/`  
