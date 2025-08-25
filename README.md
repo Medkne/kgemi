@@ -102,7 +102,3 @@ mohammed.khatbane@inria.fr
 
 This project is licensed under the terms of the **GNU General Public License version 3**.  
 See the [LICENSE](LICENSE) file for the full text.
-
-## Hyper KGEMI for receiver-environment combination (Env_Receiver)
-
-python main.py -dataset Env_Receiver -lr 0.2 -emb_dim 500 -batch_size 256 -reg_lambda 0.0001 -ne 1000 -neg_ratio 1 -model SimplE -loss Pointwise -save_each 1000
